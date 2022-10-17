@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
-  </div>
+    <div class="tech">
+        <h1>Technology</h1>
+    </div>
 </template>
 <script>
 export default {
