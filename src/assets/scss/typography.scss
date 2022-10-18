@@ -1,0 +1,100 @@
+@import './varibales.scss';
+
+.hdg {
+    &--1 {
+        font-family: $bellefair;
+        font-size: 80px;
+        color: $white;
+
+        @media(min-width: $tablet) {
+            font-size: 150px;
+        }
+    }
+
+    &--2 {
+        font-family: $bellefair;
+        font-size: 56px;
+        color: $white;
+
+        @media(min-width: $tablet) {
+            font-size: 100px;
+        }
+    }
+
+    &--3 {
+        font-family: $bellefair;
+        font-size: 24px;
+        color: $white;
+
+        @media(min-width: $tablet) {
+            font-size: 40px;
+        }
+
+        @media(min-width: $desktop) {
+            font-size: 56px;
+        }
+    }
+
+    &--4 {
+        font-family: $bellefair;
+        font-size: 16px;
+        color: $white;
+
+        @media(min-width: $tablet) {
+            font-size: 24px;
+        }
+
+        @media(min-width: $desktop) {
+            font-size: 32px;
+        }
+    }
+
+    &--5 {
+        font-family: $barlowReg;
+        font-size: 16px;
+        letter-spacing: 4.75;
+        color: $powderBlue;
+
+        @media(min-width: $tablet) {
+            font-size: 24px;
+        }
+
+        @media(min-width: $desktop) {
+            font-size: 28px;
+        }
+    }
+}
+
+.shdg {
+    color: $white;
+    
+    &--1 {
+        font-family: $bellefair;
+        font-size: 28px;
+    }
+
+    &--2 {
+        font-family: $barlowReg;
+        font-size: 14px;
+        letter-spacing: 2.35;
+    }
+}
+
+.nav {
+    ul {
+        li {
+            a {
+                font-family: $barlowReg;
+                font-size: 16px;
+                letter-spacing: 2.7;
+            }
+        }
+    }
+}
+
+body {
+    font-size: 18px;
+    font-family: $barlowReg;
+    line-height: 32px;
+    color: $white;
+}

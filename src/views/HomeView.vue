@@ -4,10 +4,22 @@
   </div>
 </template>
 <script>
-export default {
+import planetInfo from '../assets/data/data.json'
+import HomeBg from '@/assets/images/homepage-bg.png'
 
+export default {
+  data () {
+    return {
+      planetInfo,
+      HomeBg
+    }
+  }
 }
 </script>
 <style lang="scss">
+@import '@/assets/scss/varibales.scss';
 
+  .home {
+
+  }
 </style>
